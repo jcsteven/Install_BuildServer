@@ -1,0 +1,3 @@
+#User for search
+alias gg='find -H . -type f -o -type l | grep -v .svn| xargs grep -s -Hine'
+
